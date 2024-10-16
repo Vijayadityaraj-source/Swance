@@ -2,6 +2,13 @@
 - Used inswapper and gfpgan models to swap and enhance faces in the images.
 - These models need to be downloaded by the user when running this repo and added to data/models folder in the Backend
 
+  #### Models
+
+  1. [GFPGANv1.4](https://huggingface.co/hacksider/deep-live-cam/resolve/main/GFPGANv1.4.pth)
+  2. [inswapper_128_fp16.onnx](https://huggingface.co/hacksider/deep-live-cam/resolve/main/inswapper_128.onnx) (Note: Use this [replacement version](https://github.com/facefusion/facefusion-assets/releases/download/models/inswapper_128.onnx) if you encounter issues)
+
+  Place these files in the "data/models" folder.
+
 ### Example : 
   
   Source : 
